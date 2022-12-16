@@ -31,7 +31,7 @@
 
 # 📖 Leaderboard <a name="about-project"></a>
 
-**Morse Decode**  is a method used in telecommunication to decode symbol characters as standardized sequences of two different signal durations, called dots and dashes, or dits and dahs.[3][4] Morse code is named after Samuel Morse, one of the inventors of the telegraph.
+**Enumerable Module** provides collection classes with several traversal and searching methods, and with the ability to sort. The class must provide a method each, which yields successive members of the collection. If #max, min, or filter is used, the objects in the collection must also implement a meaningful <=> operator, as these methods rely on an ordering between members of the collection.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -67,12 +67,12 @@ In order to run this project you need:
 Clone this repository to your desired folder or download the Zip folder:
 
 ```
-git clone https://github.com/AdnanOlarmmi/Morse-Decode.git
+git clone https://github.com/AdnanOlarmmi/Enumerable-Module.git
 ```
 
 - Navigate to the location of the folder in your machine:
 
-**``you@your-Pc-name:~$ cd Morse-Decode``**
+**``you@your-Pc-name:~$ cd Enumerable-Module``**
 
 ### Install
 
@@ -116,7 +116,7 @@ rubocop
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Implement revese decoding.**
+- [ ] **Implement more methods.**
 - [ ] **Write Extra Message.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
