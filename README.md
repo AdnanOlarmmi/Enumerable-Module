@@ -1,15 +1,4 @@
-<a name="readme-top"></a>
-
-<div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
-# 📗 Table of Contents
+## 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
@@ -31,7 +20,7 @@
 
 # 📖 Leaderboard <a name="about-project"></a>
 
-**Enumerable Module** provides collection classes with several traversal and searching methods, and with the ability to sort. The class must provide a method each, which yields successive members of the collection. If #max, min, or filter is used, the objects in the collection must also implement a meaningful <=> operator, as these methods rely on an ordering between members of the collection.
+**Enumerable Module** provides collection classes with several traversal and searching methods, and with the ability to sort. The class must provide a method each, which yields successive members of the collection. If #all, any, or filter is used, the objects in the collection must also implement a meaningful <=> operator, as these methods rely on an ordering between members of the collection.
 
 ## 🛠 Built With <a name="built-with"></a>
 
