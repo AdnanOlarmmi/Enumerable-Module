@@ -1,30 +1,26 @@
 module MyEnumerable
   # filter method
   def filter(&block)
-    result = [];
-    self.each do |element|
-      result << element if block.call(element) == true;
+    result = []
+    each do |element|
+      result << element if block.call(element) == true
     end
     result
   end
 
   # any method
   def any?(&block)
-    self.each do |element|
-      if block.call(element) == true
-        return true;
-      end
+    each do |element|
+      return true if block.call(element) == true
     end
-    return false;
+    false
   end
 
   # all method
   def all?(&block)
-    self.each do |element|
-      if block.call(element) == false
-        return false;
-      end
+    each do |element|
+      return false if block.call(element) == false
     end
-    return true;
+    true
   end
 end
